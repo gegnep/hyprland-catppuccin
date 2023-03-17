@@ -1,2 +1,3 @@
-# hyprland-catppuccin
-Hyprland w/ waybar
+# pengeg's hyprland dotfiles
+depends:
+`paru -S`
