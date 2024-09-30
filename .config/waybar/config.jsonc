@@ -9,7 +9,7 @@
     "modules-left": [
         // "cpu",
         // "memory",
-        "wlr/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
@@ -24,7 +24,7 @@
     "hyprland/window": {
         "format": "{}"
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
         "all-outputs": true,
@@ -80,7 +80,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{: %I:%M   %m/%d}",
+        "format":"<b>󰥔 {:%I:%M 󰃭 %d/%m}</b>",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "pulseaudio": {
